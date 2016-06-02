@@ -1,0 +1,95 @@
+<html>
+	<head>
+		<style>
+		    body{
+		    	font-size:16px;
+		    	font-family: Arial;
+		    }
+			.main{
+				width:30%;
+				margin:2em auto;
+				padding:1em;
+				background:#B8E5F5;
+			}
+			h1{
+				text-align:center;
+			}
+			.calculator{
+
+			}
+			.screen{
+				width:100%;
+				height:2em;
+				padding:0 .5em;
+				font-size: 1.5em;
+				border:none;
+				border-radius:5px;
+				outline:none;
+				transition:border .5s linear;
+			}
+			.screen:focus{
+				border:2px solid #FF9FA8 ;
+			}
+			.button{
+				font-size:0;
+				letter-spacing: -4px;
+
+			}
+			input[type="button"]{
+				width:18%;
+				margin-top:.5em;
+				padding:1em;
+				font-weight:bold;
+				border:none;
+				border-radius:5px;
+				background:#fff;
+				outline:none;
+				box-shadow:2px 3px 2px #EEEEEE;
+			}
+			input[type="button"]:hover{
+				background:#FF9FA8 ;
+				box-shadow:2px 3px 2px #FF9FA8;
+			}
+			input[type="button"]:nth-child(5n+2){
+				margin-left:2.5%;
+				margin-right:2.5%;
+			}
+			input[type="button"]:nth-child(5n+4){
+				margin-left:2.5%;
+				margin-right:2.5%;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="main">
+			<h1>Calculator</h1>
+			<div class="calculator">
+				<input class="screen" type="text">
+				<div class="button">
+					<input type="button" value="1">
+					<input type="button" value="2">
+					<input type="button" value="3">
+					<input type="button" value="DEL">
+					<input type="button" value="C">
+					<input type="button" value="4">
+					<input type="button" value="5">
+					<input type="button" value="6">
+					<input type="button" value="*">
+					<input type="button" value="/">
+					<input type="button" value="7">
+					<input type="button" value="8">
+					<input type="button" value="9">
+					<input type="button" value="+">
+					<input type="button" value="-">
+					<input type="button" value="0">
+					<input type="button" value=".">
+					<input type="button" value="1">
+				
+				</div>
+				
+				
+			</div>
+		</div>
+
+	</body>
+</html>
